@@ -1,0 +1,380 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+    <link rel="preload" as="style" href="https://dev.jspm.io/npm:highlight.js@10.1.2/styles/monokai-sublime.css">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap">
+    <link rel="stylesheet" href="/styles.css">
+    <link href="/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+    <meta name="description" content="To manipulate date &amp; time values in different locales">
+  </head>
+
+  <body>
+    <nav class="menu">
+      <a href="/">
+        <img src="/lume.png" alt="Lume logo">
+      </a>
+
+      <ul>
+        
+        <li>
+          <strong>Getting started</strong>
+          <ul>
+          
+            <li>
+              
+              <a href="/getting-started/installation/">Installation</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/getting-started/command-line/">Command line usage</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/getting-started/config-file/">Configuration</a>
+              
+            </li>
+          
+          </ul>
+        </li>
+        
+        <li>
+          <strong>Creating pages</strong>
+          <ul>
+          
+            <li>
+              
+              <a href="/creating-pages/page-files/">Page files</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/creating-pages/page-data/">Page data</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/creating-pages/layouts/">Layouts</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/creating-pages/shared-data/">Shared data</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/creating-pages/tags/">Tags</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/creating-pages/data/">Extra data</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/creating-pages/searching/">Search and collecting</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/creating-pages/pagination/">Pagination</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/creating-pages/filters/">Filters</a>
+              
+            </li>
+          
+          </ul>
+        </li>
+        
+        <li>
+          <strong>Plugins</strong>
+          <ul>
+          
+            <li>
+              
+              <a href="/plugins/about-plugins/">About plugins</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/attributes/">Attributes</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/bundler/">Bundler</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/date/" aria-current="page">Date</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/dom/">DOM</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/eta/">Eta</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/inline/">Inline</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/json/">JSON</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/jsx/">JSX</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/markdown/">Markdown</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/modules/">Modules</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/nunjucks/">Nunjucks</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/postcss/">PostCSS</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/pug/">Pug</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/search/">Search</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/svg/">SVG</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/terser/">Terser</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/url/">Url</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/plugins/yaml/">Yaml</a>
+              
+            </li>
+          
+          </ul>
+        </li>
+        
+        <li>
+          <strong>Advanced</strong>
+          <ul>
+          
+            <li>
+              
+              <a href="/advanced/engines/">Template engines</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/advanced/events/">Events</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/advanced/flags/">Flags</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/advanced/loaders/">Adding custom loaders</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/advanced/plugins/">Creating plugins</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/advanced/processors/">Adding custom processors</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/advanced/scripts/">Scripts</a>
+              
+            </li>
+          
+            <li>
+              
+              <a href="/advanced/template-engines/">Configure template engines</a>
+              
+            </li>
+          
+          </ul>
+        </li>
+        
+      </ul>
+    </nav>
+
+    <main class="main">
+      
+      <header>
+        <p>Plugins</p>
+        <h1>Date</h1>
+      </header>
+      
+
+      <p>The Date plugin <strong>is disabled by default</strong> so you need to enable it in <code>_config.js</code> file:</p>
+<pre class="hljs"><code><span class="hljs-keyword">import</span> date <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;https://deno.land/x/lume/plugins/date.js&quot;</span>;
+
+site.use(date());
+</code></pre>
+<p>This plugin register the <code>date</code> filter, that allows to manipulate and format a datetime value in different locales. It uses <a href="https://date-fns.org/">date-fns</a> library under the hood.</p>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">time</span>&gt;</span>{{ createdAt | date }}<span class="hljs-tag">&lt;/<span class="hljs-name">time</span>&gt;</span>
+</code></pre>
+<h2>Formats</h2>
+<p>By default, the value is formatted to <code>yyyy-MM-dd</code> but you can use the first argument to set a different format. See the <a href="https://date-fns.org/v2.15.0/docs/format"><code>date-fms</code> documentation</a> for more info.</p>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">time</span>&gt;</span>{{ createdAt | date(&#x27;MM/dd/yyyy&#x27;) }}<span class="hljs-tag">&lt;/<span class="hljs-name">time</span>&gt;</span>
+</code></pre>
+<p>There are some predefined formats that you can use:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Format</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ATOM</code></td>
+<td><code>yyyy-MM-dd'T'HH:mm:ssxxx</code></td>
+</tr>
+<tr>
+<td><code>DATE</code></td>
+<td><code>yyyy-MM-dd</code></td>
+</tr>
+<tr>
+<td><code>DATETIME</code></td>
+<td><code>yyyy-MM-dd HH:mm:ss</code></td>
+</tr>
+<tr>
+<td><code>TIME</code></td>
+<td><code>HH:mm:ss</code></td>
+</tr>
+<tr>
+<td><code>HUMAN_DATE</code></td>
+<td><code>PPP</code></td>
+</tr>
+<tr>
+<td><code>HUMAN_DATETIME</code></td>
+<td><code>PPPppp</code></td>
+</tr>
+</tbody>
+</table>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">time</span> <span class="hljs-attr">datetime</span>=<span class="hljs-string">&quot;{{ createdAt | date }}&quot;</span>&gt;</span>
+  {{ createdAt | date(&#x27;HUMAN_DATE&#x27;) }}
+<span class="hljs-tag">&lt;/<span class="hljs-name">time</span>&gt;</span>
+</code></pre>
+<p>On register the value you can edit or add more formats under a name, so it's more easy to apply them in the templates:</p>
+<pre class="hljs"><code><span class="hljs-keyword">import</span> date <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;https://deno.land/x/lume/plugins/date.js&quot;</span>;
+
+site.use(date({
+  <span class="hljs-attr">formats</span>: {
+    <span class="hljs-string">&quot;MY_FORMAT&quot;</span>: <span class="hljs-string">&quot;MM-dd-yyyy&quot;</span>
+  }
+}));
+</code></pre>
+<p>Now you can use this format by its name:</p>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">time</span>&gt;</span>{{ createdAt | date(&#x27;MY_FORMAT&#x27;) }}<span class="hljs-tag">&lt;/<span class="hljs-name">time</span>&gt;</span>
+</code></pre>
+<h2>Locales</h2>
+<p><code>date-fns</code> has support for <a href="https://deno.land/x/date_fns@v2.15.0/locale">multiple locales</a>. If you want to use them, just import and register them in <code>_config.js</code>:</p>
+<pre class="hljs"><code><span class="hljs-keyword">import</span> date <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;https://deno.land/x/lume/plugins/date.js&quot;</span>;
+<span class="hljs-keyword">import</span> gl <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;https://deno.land/x/date_fns@v2.15.0/locale/gl/index.js&quot;</span>;
+<span class="hljs-keyword">import</span> es <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;https://deno.land/x/date_fns@v2.15.0/locale/es/index.js&quot;</span>;
+
+
+site.use(date({
+  <span class="hljs-attr">locales</span>: { gl, es }
+}));
+</code></pre>
+<p>Use the second argument to set the locale used:</p>
+<pre class="hljs"><code><span class="hljs-tag">&lt;<span class="hljs-name">time</span> <span class="hljs-attr">datetime</span>=<span class="hljs-string">&quot;{{ createdAt | date }}&quot;</span>&gt;</span>
+  {{ createdAt | date(&#x27;HUMAN_DATE&#x27;, &#x27;gl&#x27;) }}
+<span class="hljs-tag">&lt;/<span class="hljs-name">time</span>&gt;</span>
+</code></pre>
+<p><strong>Note:</strong> The first locale set in the <code>_config.js</code> will be used also as the default locale.</p>
+
+    </main>
+  </body>
+</html>
